@@ -28,7 +28,7 @@ To install the project, follow these steps:
 
     ```bash
     git clone https://github.com/spark-engine-opensource-projects/Automated-NextJS-deployer-to-vercel-and-supabase.git
-    cd yourrepository
+    cd Automated-NextJS-deployer-to-vercel-and-supabase
     ```
 
 2. Install the required dependencies by running the bash script:
