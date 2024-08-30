@@ -31,17 +31,18 @@ To install the project, follow these steps:
     cd Automated-NextJS-deployer-to-vercel-and-supabase
     ```
 
-2. Install the required dependencies by running the bash script:
+2. Create a `.env` file in the root directory and add your `NGROK_AUTH_KEY`:
+
+    ```bash
+    NGROK_AUTH_KEY=your-ngrok-auth-key
+    ```
+    
+
+3. Install the required dependencies by running the bash script:
 
     ```bash
     chmod +x ./run.sh
     ./run.sh
-    ```
-
-3. Create a `.env` file in the root directory and add your `NGROK_AUTH_KEY`:
-
-    ```bash
-    NGROK_AUTH_KEY=your-ngrok-auth-key
     ```
 
 4. The script will automatically install necessary packages and start the server.
