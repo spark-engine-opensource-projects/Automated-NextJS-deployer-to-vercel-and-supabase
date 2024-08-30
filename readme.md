@@ -27,14 +27,15 @@ To install the project, follow these steps:
 1. Clone this repository:
 
     ```bash
-    git clone https://github.com/yourusername/yourrepository.git
+    git clone https://github.com/spark-engine-opensource-projects/Automated-NextJS-deployer-to-vercel-and-supabase.git
     cd yourrepository
     ```
 
 2. Install the required dependencies by running the bash script:
 
     ```bash
-    ./setup-and-start.sh
+    chmod +x ./run.sh
+    ./run.sh
     ```
 
 3. Create a `.env` file in the root directory and add your `NGROK_AUTH_KEY`:
@@ -50,14 +51,6 @@ To install the project, follow these steps:
 Once the server is running, it will listen on port `3000` and establish an ngrok tunnel.
 
 To deploy a project, you can send a POST request to the `/deploy` endpoint with the necessary structure data.
-
-Example:
-
-```bash
-curl -X POST http://localhost:3000/deploy -H "Content-Type: application/json" -d @your-project-data.json
-```
-
-Replace your-project-data.json with your JSON file containing the deployment structure.
 
 ## Project Structure
 Here's a brief overview of the project structure:
